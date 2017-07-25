@@ -1,0 +1,25 @@
+.formContainer {
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.loadingImg {
+  display: block;
+  margin: 0 auto;
+}
+
+.errorMessage {
+  color: red;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.sitePage h1 {
+  color: green;
+  text-align: center;
+}
+
+span {
+  color: blue;
+}
+

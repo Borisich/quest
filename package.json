@@ -1,0 +1,30 @@
+{
+  "name": "login_page",
+  "version": "1.0.0",
+  "description": "login page client-server application",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify client/src/components/main.jsx -v -t [babelify --presets [ es2015 react ] ] -o client/public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Borisich/login_page.git"
+  },
+  "author": "Ivan Khromov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Borisich/login_page/issues"
+  },
+  "homepage": "https://github.com/Borisich/login_page#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^7.3.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "watchify": "^3.9.0"
+  }
+}

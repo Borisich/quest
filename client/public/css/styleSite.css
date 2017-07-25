@@ -1,0 +1,44 @@
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+  min-width: 1000px;
+}
+
+.slider {
+    margin-left: 30px;
+}
+.slider img {
+  vertical-align: middle;
+  width: 200px;
+  margin: 2px;
+}
+
+.slider img:hover {
+  border: 2px solid orange;
+  margin: 0px;
+}
+
+.header {
+  font-size: 24pt;
+}
+.header a{
+  text-decoration: none;
+  color: black;
+}
+.header a:hover{
+  text-decoration: underline;
+}
+
+.description {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 14pt;
+}
+
+.end {
+  width: 100%;
+  border-bottom: 10px solid gray;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
