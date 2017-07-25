@@ -1,17 +1,26 @@
 .formContainer {
-  width: 200px;
+  padding-top: 100px;
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 40px;
+  font-size: 1.2em;
+  text-align: center;
+}
+.align-wrapper {
+    margin: 0 auto;
+    width: 600px;
 }
 .loadingImg {
   display: block;
   margin: 0 auto;
+  text-align: center;
 }
 
 .errorMessage {
   color: red;
-  width: 200px;
+  width: 600px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .sitePage h1 {
@@ -22,4 +31,6 @@
 span {
   color: blue;
 }
-
+.question{
+    color: green;
+}

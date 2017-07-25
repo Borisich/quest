@@ -1,18 +1,28 @@
 export function showForm() {
   return {
     type: 'INITIAL_STATE',
-    payload: 'SHOW_FORM'
+    payload: {
+        name: 'SHOW_FORM',
+        text: ""
+    }
   }
 }
-export function showError() {
+export function showError(text) {
+    console.log("ACTION's text: "+ text);
   return {
     type: 'PASSWORD_DECLINED',
-    payload: 'SHOW_ERROR'
+    payload: {
+        name: 'SHOW_ERROR',
+        text: text
+    }
   }
 }
 export function showSite() {
   return {
     type: 'PASSWORD_ACCEPTED',
-    payload: 'SHOW_SITE'
+    payload: {
+        name: 'SHOW_SITE',
+        text: ""
+    }
   }
 }

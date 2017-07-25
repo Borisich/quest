@@ -8,7 +8,7 @@ import Site from '../components/site/site.jsx'
   render(){
     console.log("site-page's this.props.view:");
     console.log(this.props.view);
-    if (this.props.view != "SHOW_SITE") {
+    if (this.props.view.name != "SHOW_SITE") {
       return null
     }
 
