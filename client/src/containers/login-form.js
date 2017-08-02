@@ -74,7 +74,7 @@ class LoginForm extends Component {
         <div className="align-wrapper">
 
           <div className="formContainer">
-              <h1>Настало время для проявления смекалки!</h1><br />
+              <h1>Настало время испытаний!</h1><br />
               Отгадай загадку: <span className="question">Кто на свете всех милее, всех румяней и жирнее?</span>
                <br /> <br />
             <form onSubmit={this.sendForm}>

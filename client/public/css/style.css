@@ -34,3 +34,14 @@ span {
 .question{
     color: green;
 }
+
+.text {
+    font-size: 1.5em;
+    font-family: arial;
+}
+
+.head {
+    font-size: 2em;
+    color: blue;
+
+}

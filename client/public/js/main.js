@@ -110,7 +110,7 @@ _reactDom2.default.render(_react2.default.createElement(
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -132,37 +132,113 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var Site = function (_Component) {
-  _inherits(Site, _Component);
+    _inherits(Site, _Component);
 
-  function Site() {
-    _classCallCheck(this, Site);
+    function Site() {
+        _classCallCheck(this, Site);
 
-    return _possibleConstructorReturn(this, (Site.__proto__ || Object.getPrototypeOf(Site)).apply(this, arguments));
-  }
-
-  _createClass(Site, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        { className: 'wrapper' },
-        _react2.default.createElement(
-          'h1',
-          null,
-          '\u0413\u0443\u043D\u0435\u0447\u043A\u0430! \u041E\u043D \u043D\u0430 \u0441\u0432\u0435\u0442\u0435 \u0432\u0441\u0435\u0445 \u043C\u0438\u043B\u0435\u0435, \u0432\u0441\u0435\u0445 \u0440\u0443\u043C\u044F\u043D\u0435\u0439 \u0438 \u0436\u0438\u0440\u043D\u0435\u0435!'
-        ),
-        _react2.default.createElement('br', null),
-        _react2.default.createElement('br', null),
-        _react2.default.createElement(
-          'p',
-          { className: 'text' },
-          '\u0410 \u0442\u0435\u043F\u0435\u0440\u044C \u0438\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438...'
-        )
-      );
+        return _possibleConstructorReturn(this, (Site.__proto__ || Object.getPrototypeOf(Site)).apply(this, arguments));
     }
-  }]);
 
-  return Site;
+    _createClass(Site, [{
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'div',
+                { className: 'wrapper' },
+                _react2.default.createElement(
+                    'h1',
+                    null,
+                    '\u0413\u0443\u043D\u0435\u0447\u043A\u0430! \u041E\u043D \u043D\u0430 \u0441\u0432\u0435\u0442\u0435 \u0432\u0441\u0435\u0445 \u043C\u0438\u043B\u0435\u0435, \u0432\u0441\u0435\u0445 \u0440\u0443\u043C\u044F\u043D\u0435\u0439 \u0438 \u0436\u0438\u0440\u043D\u0435\u0435!'
+                ),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'head' },
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        '\u041C, \u0437\u0430\u0433\u0430\u0434\u043A\u0430 \u0431\u044B\u043B\u0430 \u0440\u0430\u0437\u0433\u0430\u0434\u0430\u043D\u0430 \u043D\u0435\u043E\u0436\u0438\u0434\u0430\u043D\u043D\u043E \u0431\u044B\u0441\u0442\u0440\u043E. \u041D\u043E \u043D\u0438\u0447\u0435\u0433\u043E, \u043A\u043E\u0435-\u0447\u0442\u043E \u0435\u0449\u0451 \u0443 \u043D\u0430\u0441 \u043F\u0440\u0438\u043F\u0430\u0441\u0435\u043D\u043E! '
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        '\u041D\u0443\u0436\u043D\u043E \u0441\u043E\u0431\u0440\u0430\u0442\u044C \u0444\u0440\u0430\u0433\u043C\u0435\u043D\u0442\u044B \u043A\u0430\u0440\u0442\u044B, \u0441\u043E\u0435\u0434\u0438\u043D\u0438\u0442\u044C \u0438\u0445 \u0432\u043E\u0435\u0434\u0438\u043D\u043E \u0438 \u043E\u0442\u044B\u0441\u043A\u0430\u0442\u044C \u043D\u0435\u0447\u0442\u043E! \u0424\u0440\u0430\u0433\u043C\u0435\u043D\u0442\u044B \u0441\u043F\u0440\u044F\u0442\u0430\u043D\u044B \u0432 \u0448\u0435\u0441\u0442\u0438 \u0440\u0430\u0437\u043D\u044B\u0445 \u043C\u0435\u0441\u0442\u0430\u0445... '
+                    )
+                ),
+                _react2.default.createElement(
+                    'ul',
+                    null,
+                    _react2.default.createElement(
+                        'li',
+                        null,
+                        _react2.default.createElement(
+                            'p',
+                            { className: 'text' },
+                            '\u041F\u0435\u0440\u0432\u043E\u0435 \u043C\u0435\u0441\u0442\u043E \u0438\u0449\u0438 \u0442\u0430\u043C, \u0433\u0434\u0435 \u0441\u0430\u043C\u044B\u0439 \u043A\u0440\u0430\u0441\u0438\u0432\u044B\u0439 \u043D\u0430\u0440\u044F\u0434, \u043A\u043E\u0433\u0434\u0430-\u043B\u0438\u0431\u043E \u043D\u0430\u0434\u0435\u0442\u044B\u0439.'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'li',
+                        null,
+                        _react2.default.createElement(
+                            'p',
+                            { className: 'text' },
+                            '\u0412\u0442\u043E\u0440\u043E\u0435 \u043C\u0435\u0441\u0442\u043E \u0441\u043A\u0440\u044B\u0442\u043E \u043D\u0430 \u043E\u0431\u0440\u0430\u0442\u043D\u043E\u0439 \u0441\u0442\u043E\u0440\u043E\u043D\u0435 \u043E\u043A\u043D\u0430 \u0432 \u0432\u0438\u0440\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043C\u0438\u0440.'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'li',
+                        null,
+                        _react2.default.createElement(
+                            'p',
+                            { className: 'text' },
+                            '\u0422\u0440\u0435\u0442\u044C\u0435 \u043C\u0435\u0441\u0442\u043E \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u0441\u044F \u043D\u0430 \u0434\u043D\u0435 \u0430\u0432\u0442\u043E\u0442\u0440\u0430\u043D\u0441\u043F\u043E\u0440\u0442\u043D\u043E\u0433\u043E \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430.'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'li',
+                        null,
+                        _react2.default.createElement(
+                            'p',
+                            { className: 'text' },
+                            '\u0427\u0435\u0442\u0432\u0435\u0440\u0442\u044B\u0439 \u0444\u0440\u0430\u0433\u043C\u0435\u043D\u0442 \u0438\u0449\u0438 \u0437\u0430 \u0413\u0443\u0443\u0443\u0443\u043D\u0435\u0447\u043A\u043E\u0439!'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'li',
+                        null,
+                        _react2.default.createElement(
+                            'p',
+                            { className: 'text' },
+                            '\u041F\u044F\u0442\u043E\u0435 \u043C\u0435\u0441\u0442\u043E \u0440\u0430\u0441\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u043E \u0432\u043D\u0443\u0442\u0440\u0438 \u0430\u043F\u043F\u0430\u0440\u0430\u0442\u0430, \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u044F\u0449\u0435\u0433\u043E \u043D\u0430\u0440\u043A\u043E\u0442\u0438\u043A\u0438.'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'li',
+                        null,
+                        _react2.default.createElement(
+                            'p',
+                            { className: 'text' },
+                            '\u0418 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0444\u0440\u0430\u0433\u043C\u0435\u043D\u0442. \u0421\u0430\u043C\u044B\u0439 \u043D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u043D\u044B\u0439! \u0418\u0449\u0438 \u0442\u0430\u043C, \u0433\u0434\u0435 \u0445\u043E\u043B\u043E\u0434 \u043F\u0440\u043E\u043D\u0437\u0430\u0435\u0442 \u0434\u043E \u043A\u043E\u0441\u0442\u0435\u0439 \u043F\u0442\u0438\u0446 \u0438 \u0436\u0438\u0432\u043E\u0442\u043D\u044B\u0445.'
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'head' },
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        '\u0412\u043F\u0435\u0440\u0435\u0434! \u0418 \u043F\u0443\u0441\u0442\u044C \u0443\u0434\u0430\u0447\u0430 \u043D\u0435 \u043E\u0442\u0432\u0435\u0440\u043D\u0435\u0442\u0441\u044F \u043E\u0442 \u0442\u0435\u0431\u044F. \u0414\u0430 \u043F\u043E\u043C\u043E\u0436\u0435\u0442 \u0442\u0435\u0431\u0435 \u0413\u0443\u043D\u0435\u0447\u043A\u0430!!!'
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Site;
 }(_react.Component);
 
 exports.default = Site;
@@ -342,7 +418,7 @@ var LoginForm = function (_Component) {
           _react2.default.createElement(
             'h1',
             null,
-            '\u041D\u0430\u0441\u0442\u0430\u043B\u043E \u0432\u0440\u0435\u043C\u044F \u0434\u043B\u044F \u043F\u0440\u043E\u044F\u0432\u043B\u0435\u043D\u0438\u044F \u0441\u043C\u0435\u043A\u0430\u043B\u043A\u0438!'
+            '\u041D\u0430\u0441\u0442\u0430\u043B\u043E \u0432\u0440\u0435\u043C\u044F \u0438\u0441\u043F\u044B\u0442\u0430\u043D\u0438\u0439!'
           ),
           _react2.default.createElement('br', null),
           '\u041E\u0442\u0433\u0430\u0434\u0430\u0439 \u0437\u0430\u0433\u0430\u0434\u043A\u0443: ',
